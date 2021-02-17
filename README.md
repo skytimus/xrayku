@@ -25,11 +25,11 @@
 * 代理协议：vless 或 vmess
 * 地址：appname.herokuapp.com
 * 端口：443
-* 默认UUID：8f91b6a0-e8ee-11ea-adc1-0242ac120002
+* 默认UUID：1e20c189-7061-48f9-9e4c-c1315cc27b12
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
-* 路径：/8f91b6a0-e8ee-11ea-adc1-0242ac120002-vless // 默认vless使用/$uuid-vless，vmess使用/$uuid-vmess
+* 路径：/1e20c189-7061-48f9-9e4c-c1315cc27b12-vless // 默认vless使用/$uuid-vless，vmess使用/$uuid-vmess
 * 底层传输安全：tls
 ```
 </details>
@@ -46,11 +46,11 @@
     "remote_addr": "appname.herokuapp.com",
     "remote_port": 443,
     "password": [
-        "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+        "1e20c189-7061-48f9-9e4c-c1315cc27b12"
     ],
     "websocket": {
         "enabled": true,
-        "path": "/8f91b6a0-e8ee-11ea-adc1-0242ac120002-trojan",
+        "path": "/1e20c189-7061-48f9-9e4c-c1315cc27b12-trojan",
         "host": "appname.herokuapp.com"
     }
 }
@@ -67,7 +67,7 @@
 * 密码：password
 * 加密：chacha20-ietf-poly1305
 * 插件程序：xray-plugin_windows_amd64.exe  //需将插件https://github.com/shadowsocks/xray-plugin/releases下载解压后放至shadowsocks同目录
-* 插件选项: tls;host=appname.herokuapp.com;path=/8f91b6a0-e8ee-11ea-adc1-0242ac120002-ss
+* 插件选项: tls;host=appname.herokuapp.com;path=/1e20c189-7061-48f9-9e4c-c1315cc27b12-ss
 ```
 </details>
   
