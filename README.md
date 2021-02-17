@@ -15,7 +15,7 @@
   
 ### 客户端
 * **务必替换所有的appname.herokuapp.com为heroku分配的项目域名**  
-* **务必替换所有的8f91b6a0-e8ee-11ea-adc1-0242ac120002为部署时设置的AUUID**  
+* **务必替换所有的1e20c189-7061-48f9-9e4c-c1315cc27b12为部署时设置的AUUID**  
   
 <details>
 <summary>xray</summary>
